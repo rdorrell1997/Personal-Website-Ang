@@ -13,7 +13,7 @@ export class JobsComponent implements OnInit{
   constructor(private jobServiceService: JobServiceService) { }
   
   ngOnInit(): void {
-    this.jobServiceService.getJobs().subscribe(list =>{
+    this.jobServiceService.getAllJobs().subscribe(list =>{
       this.jobList = list;
     })
   }

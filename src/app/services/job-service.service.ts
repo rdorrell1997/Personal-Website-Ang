@@ -23,7 +23,7 @@ export class JobServiceService {
     },
     {
       id: 3,
-      title: "Financial Service Representative Float",
+      title: "Financial Service Representative",
       description: "Build relationships with each customer and look for ways to help them grow their finances, make their lives easier with helpful product and service recomendations, float between branches to help with shortages and aid during peak hours.",
       duration: "3 months",
       employer: "Citizens National Bank of Tennessee"
@@ -31,7 +31,28 @@ export class JobServiceService {
   ]
   constructor() { }
   
-  getJobs(): Observable<any> {
+  getAllJobs(): Observable<any> {
     return of(this.jobServiceList);
   }
+
+  getJob(title: string): Observable<any> {
+    let selectedJob: any = [];
+    
+    this.jobServiceList.forEach((item: any)=> {
+      if (item.title === title) {
+        let jobTitle = item.title;
+        let description = item.description;
+        let duration = item.duration;
+        let employer = item.employer;
+
+        selectedJob = {
+          jobTitle,
+          description,
+          duration,
+          employer
+        }
+      };
+    });
+    return of(selectedJob);
+  } 
 }
