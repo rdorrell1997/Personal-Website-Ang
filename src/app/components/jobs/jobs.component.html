@@ -1,0 +1,7 @@
+<h1>Job History</h1>
+<br>
+<ul>
+    <li *ngFor="let t of jobList">
+        <a [routerLink]= "['/jobs', t.title]">{{t.title}}</a>
+    </li>
+</ul>
