@@ -1,0 +1,18 @@
+nav {
+    background-color: #0E464E;
+    text-align: center;
+    height: 45px;
+}
+
+button {
+    border: none;
+    font-size: 25px;
+    background-color: #0E464E;
+    margin: .25em .5em;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: gray;
+}

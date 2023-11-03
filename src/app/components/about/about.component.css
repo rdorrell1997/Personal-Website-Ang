@@ -1,0 +1,16 @@
+.wrapper {
+    border: 5px solid #0E464E;
+    background-color: #6E92A1;
+    border-radius: 1em;
+    margin: 10em 25%;
+    color: #0E464E;
+}
+
+.innerDiv {
+    padding: 30px;
+}
+
+.tab {
+    padding-left: 45px;
+    line-height: 1.5;
+}
