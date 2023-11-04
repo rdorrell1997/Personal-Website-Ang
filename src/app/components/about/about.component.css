@@ -1,9 +1,10 @@
 .wrapper {
-    border: 5px solid #0E464E;
-    background-color: #6E92A1;
+    border: 5px solid #211A1E;
+    background-color: #211A1E;
     border-radius: 1em;
     margin: 10em 25%;
-    color: #0E464E; 
+    color: #FAFFD8;
+    font-size: 20px; 
 }
 
 .innerDiv {

@@ -1,0 +1,29 @@
+div {
+    border: 5px solid #211A1E;
+    background-color: #211A1E;
+    border-radius: 1em;
+    margin: 10em 25%;
+    color: #FAFFD8;
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 30px;
+}
+
+a {
+    padding-left: 45px;
+    line-height: 1.5;
+}
+
+a:link {
+    color: #FAFFD8;
+}
+
+a:visited {
+    color: #8E9AAF;
+}
+
+a:hover {
+    color: #A85751;
+}

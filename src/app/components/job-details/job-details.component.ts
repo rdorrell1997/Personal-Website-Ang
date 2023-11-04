@@ -15,11 +15,11 @@ export class JobDetailsComponent implements OnInit{
   constructor(private JobService: JobServiceService, private actRoute: ActivatedRoute) { }
 
   ngOnInit(): void {  
-    console.log(this.actRoute.snapshot.paramMap);
+    // console.log(this.actRoute.snapshot.paramMap);
     this.selectedJob = this.actRoute.snapshot.paramMap.get("jobId") ?? "";
     this.JobService.getJob(this.selectedJob).subscribe(details => {
       this.jobDetails = details;
     })
-    console.log(this.jobDetails);
+    // console.log(this.jobDetails);
   }
 }

@@ -1,0 +1,35 @@
+.wrapper {
+    border: 5px solid #211A1E;
+    background-color: #211A1E;
+    border-radius: 1em;
+    margin: 10em 25%;
+    color: #FAFFD8;
+    font-size: 20px;
+    height: 275px;
+}
+
+.tab {
+    padding-left: 45px;
+    line-height: 1.5;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+.btnDiv{
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    font-size: 20px;
+    background-color: #211A1E;
+    margin: .5em 2.5em;
+    color: #FAFFD8;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #8E9AAF;
+}

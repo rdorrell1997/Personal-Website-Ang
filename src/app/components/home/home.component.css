@@ -10,13 +10,12 @@ img {
     width: 525px;
     margin: 15px auto;
     border-radius: 1em;
+    border: 5px solid #211A1E;
+    border-radius: 1em;
 }
 
-.tagLineDiv {
-    border: 5px solid #0E464E;
-    border-radius: 1em;
-    background-color: #6E92A1;
-    color: #0E464E;
+header { 
+    color: #211A1E;
     margin: .5em 25%;
 }
 
